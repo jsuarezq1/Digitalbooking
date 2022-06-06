@@ -1,0 +1,86 @@
+.container-characteristic {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--primary-color);
+}
+
+.container-characteristic h2 {
+    color: var(--color-2);
+
+    padding: 10px;
+}
+
+.container-characteristic hr {
+    /*border-color: var(--secondary-color);*/
+    height: 1px;
+    background-color: var(--secondary-color);
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.characteristic-icons {
+    display: flex;
+    justify-content: space-between;
+
+    margin-left: 10px;
+}
+
+.characteristic {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.icon {
+    width: 1.9rem;
+
+    margin-right: 1rem;
+
+    color: var(--secondary-color);
+}
+
+.characteristic-icons p {
+    display: flex;
+    align-items: center;
+
+    font-size: 1rem;
+
+    color: #4F4F50;
+
+    padding: .3rem 0;
+}
+
+@media (min-width: 768px) {
+    .container-characteristic h2 {
+        padding: 0 2rem;
+    }
+
+    .characteristic-icons {
+        padding: 1rem;
+    }
+
+    .characteristic-icons p {
+        font-size: 1rem;
+
+        margin: 1rem;
+        padding: 0;
+    }
+
+    .characteristic {
+        width: 100%;
+    }
+
+    .icon {
+        width: 3rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .characteristic {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

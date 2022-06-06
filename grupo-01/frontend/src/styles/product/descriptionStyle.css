@@ -1,0 +1,50 @@
+.container-description {
+    width: 100%;
+
+    padding: 30px 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    font-weight: 400;
+
+    background-color: var(--primary-color);
+}
+
+.container-description h2 {
+    width: 80%;
+
+    font-weight: 700;
+
+    padding-bottom: 1rem;
+
+    color: var(--color-2);
+}
+
+.container-description p {
+    font-size: 1rem;
+    font-weight: 500;
+
+    color: #4F4F50;
+}
+
+@media (min-width: 768px) {
+    .container-description {
+        padding: 2rem;
+    }
+
+    .container-description h2 {
+        padding: 0 0 1.5rem 0;
+        margin: 0;
+    }
+
+    .container-description p {
+        padding-top: .5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container-description {
+        padding: 3rem;
+    }
+}

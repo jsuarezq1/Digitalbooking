@@ -1,0 +1,34 @@
+.button-searchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    /*width: 394px;*/
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .button-searchBar {
+        width: 166px;
+
+        margin-top: 0px;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 1366px) {
+    .button-searchBar {
+        width: 206px;
+    }
+}

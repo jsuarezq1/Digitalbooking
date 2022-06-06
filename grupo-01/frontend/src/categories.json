@@ -1,0 +1,22 @@
+[
+    {
+        "id": "1",
+        "category": "Hoteles",
+        "crimg": "https://images.unsplash.com/photo-1609766857041-ed402ea8069a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGhhYml0YWNpJUMzJUIzbiUyMGRlJTIwaG90ZWx8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+    },
+    {
+        "id": "2",
+        "category": "Hostels",
+        "crimg": "https://images.unsplash.com/photo-1644031995392-5a07babd176c?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170"
+    },
+    {
+        "id": "3",
+        "category": "Departamentos",
+        "crimg": "https://images.unsplash.com/flagged/photo-1556438758-8d49568ce18e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aGFiaXRhY2klQzMlQjNuJTIwZGUlMjBob3RlbHxlbnwwfDB8MHx8&auto=format&fit=crop&w=600&q=60"
+    },
+    {
+        "id": "4",
+        "category": "Bed and breakfast",
+        "crimg": "https://images.unsplash.com/photo-1631049552057-403cdb8f0658?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGhhYml0YWNpJUMzJUIzbiUyMGRlJTIwaG90ZWx8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+    }
+]

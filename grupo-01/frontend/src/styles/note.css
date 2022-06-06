@@ -1,0 +1,24 @@
+.note-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 31px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.a-note {
+    color: var(--color-2);
+}
+
+.p-note span {
+    color: rgb(43, 113, 235);
+}
+
+@media (min-width: 768px) {
+    .note-container {
+        margin-top: 15px;
+    }
+}
